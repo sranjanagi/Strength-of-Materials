@@ -376,50 +376,41 @@ mso-fareast-font-family:"Times New Roman";}
 &lt;![endif]--></p>
 
                             <p class="MsoNormal" style="line-height: 150%;">
-              Mohr’s Circle is used to derive some basic formulas relating to the transformation of plane stress and
+
+Mohr’s Circle is used to derive some basic formulas relating to the transformation of plane stress and
 was first introduced by the German engineer Otto Mohar (1835-1918) and hence is known as Mohr’s
 circle for plane stress. This method is based on simple geometric consideration and does not require
 the use of specialized formulas. While it was originally designed for graphical solutions, it lends itself
-well to the use of a calculator.
-Consider a square element of a material subjected to plane stress (figure.1.) and let x ,	 y, and xy
-be the component of stress exerted on the element. We plot a point X of coordinates x and – xy, and
-a point Y of coordinates σy and +τxy. If τxy is positive, as assumed in (figure.1.), point X is located
+well to the use of a calculator.<br><br>
+Consider a square element of a material subjected to plane stress (figure.1.) and let $\sigma x$, $\sigma y$, and $\tau xy$
+be the component of stress exerted on the element. We plot a point X of coordinates x and -xy, and
+a point Y of coordinates $\sigma y$ and +$\tau xy$. If $\tau xy$ is positive, as assumed in (figure.1.), point X is located
 below the σ axis and point Y above, as shown in (Figure.2.). If τxy is negative, X is located above the σ
 axis and Y below. Joining X and Y by a straight line, we define the point C of intersection of line XY with
 the σ axis and draw the circle of the centre C and the diameter XY. Noting that the abscissa of C and
 radius of the circle are respectively equal to the quantities σave and R defined by equation
-$$\sigma ave=\frac{\sigma x+\sigma y}2$$
-and 						 
-
-
-$$R=\sqrt{\left(\frac{\sigma x-\sigma y}2\right)^2+\tau^2xy}$$
+<br><br>
+$\sigma ave=\frac{\sigma x+\sigma y}2$   and    $R=\sqrt{(\frac{\sigma x-\sigma y}2)^2+\tau^2xy}$<br>
 We conclude that the circle obtained is Mohr’s circle for plane stress. Thus the abscissa of points A and
 B where the circles intersect the σ axis represent respectively the principal stresses σmax and σmin at
 the point considered.
+
 <img alt="" height="169" src= "../images/mc1.png" width="261"><br>
-We also note that, since tan (XCA) = 2tauxy⁄(
+We also note that, since $\tan\left(XCA\right)=\frac{2tauxy}{\sigma x-\sigma y}$ (the angle XCA is eqal in magnitude to one of the
+
 angles 2 that satisfies equation
-−
-$$\tan\left(2\theta p\right)=\frac{2\tau xy}{\sigma x-\sigma y}$$
-), the angle XCA is eqal in magnitude to one of the
-=
-2
-−
+$$\tan\left(2\theta p\right)=\frac{2tauxy}{\sigma x-\sigma y}$$
 Thus, the angle
 that defines in (figure.1.) the orientation of principle plane corresponds to point A in
 (figure.2.) can be obtained by dividing in half the angle XCA measured on Mohr’s Circle. We further
-observe that if
->
-and
-> 0, as in the case considered here, the rotation which brings CX into
+observe that if > and > 0, as in the case considered here, the rotation which brings CX into
 CA is counterclockwise. But, in that case, the angle
 p obtained from equation
-$$\tan\left(2\theta p\right)=\frac{2\tau xy}{\sigma x-\sigma y}$$
-
+$$\tan\left(2\theta p\right)=\frac{2tauxy}{\sigma x-\sigma y}$$
 And defining the direction of the normal Oa to the principal plane is positive; thus the rotation bringing
 Ox into Oa is also counter clockwise . we conclude that the senses of rotation in both parts of (figure.1
 and 2.) are the same; if a counterclockwise rotation through 2 p is required to bring CX into CA on
-Mohr’s circle, a counterclockwise rotation through p will bring Ox into Oa in (figure1.).
+Mohr’s circle, a counterclockwise rotation through p will bring Ox into Oa in (figure1.).<br><br>
 The construction of Mohr’s circle is greatly simplified if we consider separately each faces of the
 element used to define the stress components. From (figure.3 and figure.4) its observed that, when
 the shear stress extend on a given face tends to rotate the element clockwise, the point on Mohr’s
@@ -428,7 +419,7 @@ tends to rotate the element counterclockwise, the point corresponds to that face
 element counterclockwise, the point corresponding to that face is located below the S axis. As far as
 normal stresses are concerned, the usual convention holds, i.e., a tensile stress is considered as
 positive and is plotted to the right, while a compressive stress is considered as negative and is plotted
-to the left.<br>
+to the left.
 <img alt="" height="169" src= "../images/mc2.png" width="261">
 
 
@@ -473,54 +464,7 @@ to the left.<br>
                     <div class="content" id=
                     "experiment-article-section-5-content">
                         <div class="divContent">
-                          
-                            <h3 style="color: red;">&nbsp;</h3>
-
-                            <h3 style="color: red;">&nbsp;</h3>
-
-                            <h3 style="color: red;">
-                            <!--[if gte mso 9]&gt;&lt;xml&gt;
-&lt;w:WordDocument&gt;
-mso-style-priority:99;
-mso-style-qformat:yes;
-mso-style-parent:"";
-mso-padding-alt:0in 5.4pt 0in 5.4pt;
-mso-para-margin:0in;
-mso-para-margin-bottom:.0001pt;
-mso-pagination:widow-orphan;
-font-size:10.0pt;
-font-family:"Times New Roman","serif";}
-&lt;/style&gt;
-&lt;![endif]--><big></big></h3>
-
-                            <h3 style="color: red;"><big>
-                            <!--[if gte mso 9]&gt;&lt;xml&gt;
-&lt;w:WordDocument&gt;
-&lt;w:View&gt;Normal&lt;/w:View&gt;
-mso-style-noshow:yes;
-mso-style-priority:99;
-mso-style-qformat:yes;
-mso-style-parent:"";
-mso-padding-alt:0in 5.4pt 0in 5.4pt;
-mso-para-margin-top:0in;
-mso-para-margin-right:0in;
-mso-para-margin-bottom:10.0pt;
-mso-para-margin-left:0in;
-line-height:115%;
-mso-pagination:widow-orphan;
-font-size:11.0pt;
-font-family:"Calibri","sans-serif";
-mso-ascii-font-family:Calibri;
-mso-ascii-theme-font:minor-latin;
-mso-hansi-font-family:Calibri;
-mso-hansi-theme-font:minor-latin;
-mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:minor-bidi;}
-&lt;/style&gt;
-&lt;![endif]--></big></h3>
-
-                            <h3 style="color: red;">&nbsp;</h3>
-
+                 
                             <p class="MsoNormal" style="line-height: 150%;">
                             <span lang="EN-IN" style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
