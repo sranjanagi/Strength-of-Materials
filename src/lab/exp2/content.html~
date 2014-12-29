@@ -376,124 +376,85 @@ mso-fareast-font-family:"Times New Roman";}
 &lt;![endif]--></p>
 
                             <p class="MsoNormal" style="line-height: 150%;">
-                        Consider a beam AB of span ‘l’ subjected to a uniform bending moment M so that the beam deflects
-into an arc of circle. Let the deflection at the centre of the bean be ‘ ‘. If the beam is of uniform cross-
-section the moment of inertia I of its cross-section will be constant.
-Using the bending formula
-	=	
-		
-	;
-=	
-Since M, E and I are all constants R will also be a constant and therefore the beam will bend into an arc
-of a circle.
-The above example reveals an important relation of the flexure theory, i.e.,. The radius of curvature R
-at any point of the elastic curve of a beam is directly propulsion to the flexural rigidity EI and inversely
-proportional to the flexural rigidity EI and inversely proportional to the bending moment.
-<img alt="" height="169" src= "../images/bs2.png" width="261"><br>
-.
-	=	
-.
-(2 − 	 ) = 	
-2
-	
-−	
-		
-.
-		
-=
-Since deflection 	being a small quantity
-2
-=	
-=	
-4
-	
-=	
-Using
-	
-,
-	
-=
-Substituting the value of
-=
-∴
-=	
-Let
-in the expression for
-	.
-8
-	be the slope at end A
-Now angle AOC =
-Since
-can be neglected
-.
-is a small quantity, sin	
-	≅
-∴
-=
-Substituting for
-=	
-from the condition
-=	
-	
-radians.
-Differential equation for Deflection curve
-If a beam is bent by a couple, the moment M is constant throughout its length and therefore the
-radius of curvature R is also a constant, there by the elastic curve of a beam is a circular arc. If the
-bending moment is not constant along the length of the beam, the elastic curve may have very
-different shapes. Let us find an expression for the radius of curvature at any given point in relation to
-the x-y axes.
-Let the coordinates of the point P be (x,y) and be dx and dy the horizontal and vertical distances from
-P to Q, be dx and dy.
-<img alt="" height="169" src= "../images/bs3.png" width="261"><br>
-The slope of the beam over ds is given by
-Let the tangent drawn at P to the curve, make an angle
-=	
-with the x- axis.
-=	
-,
-= 	
-∴
-=
-= tan
-Differentiating both sides with respect to x
-=
-.
-=
-.
-	
-=
-=
-=
-=
-	 )
-(
-In any practical case of bending of beams, the slope
-comparisons to unity, hence
-∴
-	is very small and so
-is very small in
-can be ignored.
-If M is the bending moment which has produced the radius of curvature R at that point,
-Then
-∴
-=
-=
-This is the differential equation of the deflection curves for the beam loaded by lateral forces. This is
-known as Eulers-Bernoulli equation and solution of this equation may be obtained by the ‘Double
-Integration Method’.
-<img alt="" height="169" src= "../images/bs5.png" width="261"><br>
-For curvature, if the curve is concaved forward the positive y-axis,
-> 0 Since
-> 0 hence it is taken as positive.
-Conversely if the curve is concaved towards the negative y-axis then
-> 0 since
-< 0, it is taken as
-negative.
-From the above sign convention it follows that if the coordinate axes are chosen as shown in
-figure.2.(a) the elastic curve equation may be written in the general form as
-=
-<img alt="" height="169" src= "../images/bs7.png" width="261"><br>
+                     Consider a beam AB of span ‘l’ subjected to a uniform bending moment M so that the beam deflects
+into an arc of circle. Let the deflection at the centre of the bean be ‘ ‘. If the beam is of uniform cross-<br>
+section the moment of inertia I of its cross-section will be constant.<br>
+Using the bending formula<br><br>
 
+Since M, E and I are all constants R will also be a constant and therefore the beam will bend into an arc
+of a circle.<br>
+The above example reveals an important relation of the flexure theory, i.e.,. The radius of curvature R<br>
+at any point of the elastic curve of a beam is directly propulsion to the flexural rigidity EI and inversely<br>
+proportional to the flexural rigidity EI and inversely proportional to the bending moment.<br>
+
+
+<img alt="" height="169" src= "../images/bs2.png" width="261"><br><br>
+$\begin{array}{l}DC.CE\;=AC.CB\\\delta(2R-\delta)=\frac12.\frac12\\2R\delta-\delta^2=\frac{l^2}4\end{array}$<br>
+
+Since deflection $\delta$ being a small quantity $\delta^2$ can be neglected<br>
+$2R\delta=\frac{l^2}4$<br>
+$\delta=\frac{l^2}{8R}$<br>
+Using $\frac MI=\frac ER,\frac1R=\frac M{EI}$<br>
+Substituting the value of $\frac1R\;$ in the expression for $\delta$<br>
+$\delta=\frac{l^2}8.\frac M{EI}$<br>
+$\delta=\frac{Ml^3}{8EI}$<br>
+Let $\theta A$	be the slope at end A<br>
+Now angle AOC = $\theta A$<br>
+Since  is a small quantity
+can be neglected, $\sin\left(\theta A\right)\;\cong\;\theta A$
+.$\;\theta A\;=\;\frac1{2R}$
+Substituting for = from the condition $\frac MI=\frac ER$
+$\theta A=\frac{Ml}{EI}$ radians
+Differential equation for Deflection curve<br><br>
+If a beam is bent by a couple, the moment M is constant throughout its length and therefore the<br>
+radius of curvature R is also a constant, there by the elastic curve of a beam is a circular arc. If the<br>
+bending moment is not constant along the length of the beam, the elastic curve may have very<br>
+different shapes. Let us find an expression for the radius of curvature at any given point in relation to<br>
+the x-y axes.<br><br>
+Let the coordinates of the point P be (x,y) and be dx and dy the horizontal and vertical distances from<br>
+P to Q, be dx and dy.<br>
+
+<img alt="" height="169" src= "../images/bs3.png" width="261"><br>
+The slope of the beam over ds is given by $\frac{dy}{dx}$
+
+Let the tangent drawn at P to the curve, make an angle = with the x- axis<br>
+$\tan\left(\theta\right)=\frac{dy}{dx},\sec\left(\theta\right)=\frac{dS}{dx}$<br>
+
+$dS=R\;d\theta$<br>
+
+<br>
+$\frac{d\theta}{ds}=\frac1R$<br>
+$\frac{dy}{dx}=\tan\left(\theta\right)$<br>
+Differentiating both sides with respect to x
+$\frac{dy^2}{dx^2}=\sec^2\left(\theta\right).\frac{d\theta}{dx}=\sec^2\left(\theta\right).\frac{d\theta}{ds}\frac{ds}{dx}=\sec^2\left(\theta\right)\frac1R\sec\left(\right)$<br>
+$\frac{dy^2}{dx^2}=\sec^2\left(\theta\right)\frac1R$<br>
+$\frac1R=\frac{\frac{dy^2}{dx^2}}{(1+\tan^2\left(\theta\right))^{\displaystyle\frac32}}=\frac{\frac{dy^2}{dx^2}}{(1+({\displaystyle\frac{dy}{dx}})^2)^{\displaystyle\frac32}}$<br>
+
+In any practical case of bending of beams, the slope is very small and so<br>
+is very small in
+comparisons to unity, hence<br>
+∴
+	
+can be ignored.<br>
+$\frac1R=\frac{dy^2}{dx^2}$<br>
+
+If M is the bending moment which has produced the radius of curvature R at that point,<br>
+Then, $\frac M{EI}=\frac{dy^2}{dx^2}$<br>
+
+$M=EI\frac{dy^2}{dx^2}$<br>
+This is the differential equation of the deflection curves for the beam loaded by lateral forces. This is<br>
+known as Eulers-Bernoulli equation and solution of this equation may be obtained by the ‘Double<br>
+Integration Method’.<br>
+
+<img alt="" height="169" src= "../images/bs5.png" width="261"><br>
+For curvature, if the curve is concaved forward the positive y-axis,<br>
+$\frac1R$> 0 Since $\frac{dy^2}{dx^2}$ > 0 hence it is taken as positive.<br>
+Conversely if the curve is concaved towards the negative y-axis then<br>
+$\frac1R$ > 0 since $\frac{dy^2}{dx^2}$ < 0, it is taken as negative.<br>
+From the above sign convention it follows that if the coordinate axes are chosen as shown in<br>
+figure.2.(a) the elastic curve equation may be written in the general form as    $EI\frac{dy^2}{dx^2}=M$<br>
+
+<img alt="" height="169" src= "../images/bs7.png" width="261"><br>
 
 </p>
 </section>
