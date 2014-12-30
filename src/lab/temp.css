@@ -1,10 +1,3 @@
-span.term {
-   font-family: monospace;
-   font-style: normal;
-   font-weight: bold;
-   color: #556B2F;
-}
-
 
 #pillmenu {
 	height:50px;
@@ -36,7 +29,7 @@ span.term {
 
 #pillmenu li a {
 	border:medium none;
-	color:#fff;
+	color:#FFFFFF;
 	display:block;
 	font-family:Arial,Helvetica,sans-serif;
 	font-size:13px;
@@ -49,3 +42,4 @@ span.term {
 #pillmenu li a:hover {
 	text-decoration:underline;
 }
+
